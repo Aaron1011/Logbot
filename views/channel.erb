@@ -18,7 +18,7 @@
         <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
       </div>
       <div class="body">
-        <div class="channel">#<%= @channel %></div>
+        <div class="channel"><%= @channel %></div>
         
         <% given_date = Time.parse(@date) %>
         <select id="date-picker" class="date">
